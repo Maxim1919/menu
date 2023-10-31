@@ -192,12 +192,20 @@ p {
     margin-top: 100px;
 }
 
-#container3 {
-    width: 100%;
+#contacts {
+    display: flex;
 }
 
-.item1 {
-    display: inline;
-    margin-right: 40px;
-}
+#contacts i {
+    margin-right: 5px;
+  }
+  
+#contacts a{
+    transition: transform 0.3s ease-out;
+    margin-right: 20px;
+  }
+  
+#contacts a:hover {
+    transform: translate(0, 7px);
+  }
 
